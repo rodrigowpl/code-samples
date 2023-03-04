@@ -1,42 +1,46 @@
-## Code sample for demonstration purposes
+# React Next Boilerplate
 
-### The context
-The goal of this code sample is to show how I normally code big projects. On this specific example I'm reffering to a platform called [Odyssey](https://www.join-odyssey.com/). 
+## What's inside it?
 
-I've choose this piece of code because It's a recent amazing project that I've worked where I had the opportunity to create a brand new product from scratch where I've implemented several patterns and clean archicture principles -- which makes me proud and happy with the result.
+- [ReactJS](https://reactjs.org/docs/getting-started.html)
+- [NextJS](https://nextjs.org/docs)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/docs)
+- [Jest](https://jestjs.io/docs/en/getting-started)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://github.com/typicode/husky)
+- [Plop](https://plopjs.com/) to automatize components creation structure, see more detail [here](https://github.com/rodrigowpl/react-next-boilerplate#components-structure)
 
-The sample code is responsible to a specific use-case, where the goal is a booking functionality.
+## Dependencies
+- Node js => v16.x
+- Yarn or Npm
 
-## Use-case (service)
-This service is responsible to load a set of events from all hosts(users) from database repositories, filter elligible sessions, for instance: active sessions, future sessions, generate recurrent instances and adapt/normalize to what the client is expecting.
+## Up and Running
+- Install dependencies `yarn (or npm i)`
+- Run `yarn dev (or npm dev)` to run next development server (it  will be available in `http://localhost:3000`
+- Run `yarn generate [ComponentName]` to create a new component structure automatically (the result will be generated in `src/components/[ComponentName]`)
 
-## Component
-The component, which represents the frontend part of that feature is to show how I normally code a component. Focosing in a good naming, separation of concerns in smaller components and hooks, styling, etc. Below I will attach a print screen how the final result looks like.
+## Available scripts
+- `yarn dev (or npm dev)`: Run next development server
+- `yarn build (or npm run build)`: Generate next production build
+- `yarn start (or npm start)`: Run next production server
+- `yarn test (or npm run test)`: Run tests
+- `yarn test:watch (or npm run test)`: Run tests in watch mode
 
-## Component result visualization
-
-## Technology used in this project
-- Backend
-  - Node.js
-  - Typescript
-  - GraphQL
-  - Apollo
-  - Prisma
-  - PostgresQL
-- Frontend
-  - React.js
-  - Next.js
-  - Typescrypt
-  - Styled-components
-- Others...
-
-## Architecture patterns
-- Single responsibility
-- Dependence Injection
-- Repository
-- Adpters
-- Factory
-- Etc
+## Components structure
+```
+├── /src/
+│   ├── /components/
+│       ├── /[ComponentName]/
+            ├── /index.tsx/   # Component file
+            ├── /styles.ts/   # Component styled-components styles
+            ├── /test.tsx/    # Component test file
+```
 
 
+## How to use it?
+Run `yarn create next-app -e https://github.com/rodrigowpl/frontend-next-boilerplate`
 
+Enjoy it :)
