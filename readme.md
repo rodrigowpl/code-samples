@@ -1,21 +1,6 @@
-# React Next Boilerplate
+# React booking component demo
 
-## What's inside it?
-
-- [ReactJS](https://reactjs.org/docs/getting-started.html)
-- [NextJS](https://nextjs.org/docs)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Styled Components](https://styled-components.com/docs)
-- [Jest](https://jestjs.io/docs/en/getting-started)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
-- [Plop](https://plopjs.com/) to automatize components creation structure, see more detail [here](https://github.com/rodrigowpl/react-next-boilerplate#components-structure)
-
-## Dependencies
-- Node js => v16.x
-- Yarn or Npm
+Created fromt template: https://github.com/rodrigowpl/frontend-next-boilerplate
 
 ## Up and Running
 - Install dependencies `yarn (or npm i)`
@@ -39,8 +24,3 @@
             ├── /test.tsx/    # Component test file
 ```
 
-
-## How to use it?
-Run `yarn create next-app -e https://github.com/rodrigowpl/frontend-next-boilerplate`
-
-Enjoy it :)
