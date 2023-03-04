@@ -1,6 +1,6 @@
 # React booking component demo
 
-Created fromt template: https://github.com/rodrigowpl/frontend-next-boilerplate
+Created from template: https://github.com/rodrigowpl/frontend-next-boilerplate
 
 ## Up and Running
 - Install dependencies `yarn (or npm i)`
